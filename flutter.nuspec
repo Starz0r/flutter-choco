@@ -6,7 +6,7 @@
     <title>flutter</title>
     <authors>Google</authors>
     <owners>ekeel</owners>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/flutter/flutter/blob/master/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/Starz0r/flutter-choco</packageSourceUrl>
     <projectUrl>https://flutter.dev/</projectUrl>
