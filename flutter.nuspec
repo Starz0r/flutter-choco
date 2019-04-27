@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>flutter</id>
-    <version>0.1.5-beta</version>
+    <version>0.1.8-dev</version>
     <title>flutter</title>
     <authors>Google</authors>
     <owners>ekeel</owners>
@@ -21,3 +21,4 @@
     </dependencies>
   </metadata>
 </package>
+
