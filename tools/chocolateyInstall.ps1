@@ -1,24 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>flutter</id>
-    <version>v0.1.8-dev</version>
-    <title>flutter</title>
-    <authors>Google</authors>
-    <owners>ekeel</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://github.com/flutter/flutter/blob/master/LICENSE</licenseUrl>
-    <packageSourceUrl>https://github.com/Starz0r/flutter-choco</packageSourceUrl>
-    <projectUrl>https://flutter.dev/</projectUrl>
-    <projectSourceUrl>https://github.com/flutter/flutter/</projectSourceUrl>
-    <iconUrl>https://cdn.staticaly.com/gh/Starz0r/flutter-choco/8b31ecbb9c1ca88725deaef7f353dfa1d8f5735c/flutter.png</iconUrl>
-    <description>Flutter is Google’s mobile app SDK for crafting high-quality native interfaces on iOS and Android in record time. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.</description>
-    <summary>Build beautiful native apps in record time</summary>
-    <tags>flutter</tags>
-    <dependencies>
-      <dependency id="dart-sdk" version="2.2.0" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>
-  </metadata>
-</package>
+$ErrorActionPreference = 'Stop';
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = 'https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v0.1.5-beta.zip'
+$installDir = Join-Path $env:ChocolateyToolsLocation "flutter"
 
+Install-ChocolateyZipPackage $env:ChocolateyPackageName $url $installDir -checksum '04EF2DDA9173BE8538636A471CB9F7E182DDA38B65A5AAD76553729BCEE7576D04B423B9C04384B64155D59A8C24D42F16184ABF989B4A2BD9B13B3770C0694C' -checksumType 'sha512'
+Install-ChocolateyPath $installDir
