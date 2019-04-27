@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v0.11.10-dev.zip'
+$url        = 'https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v0.11.10-beta.zip'
 $installDir = Join-Path $env:ChocolateyToolsLocation "flutter"
 
-Install-ChocolateyZipPackage $env:ChocolateyPackageName $url $installDir -checksum 'B69BF69CE25578473F616A2E7ED3B7FFE84BD65CF200DFE4E9464C893056B32D5838AFE71A7B91AE7903D67CC90A7884B273A014C5B0A1FE3CAE6547FEB7A67C' -checksumType 'sha512'
+Install-ChocolateyZipPackage $env:ChocolateyPackageName $url $installDir -checksum 'CA27DF767A0A048A010E11CDE87FB03FB002BDC8F13B41229CEA85E9904A468514FFB432D918CB8331867CE27106F8A83462C8AD387C0DB40D8B046A108FDC4B' -checksumType 'sha512'
 Install-ChocolateyPath $installDir
