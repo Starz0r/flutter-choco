@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>flutter</id>
-    <version>1.15.8-dev</version>
+    <version>1.15.9-dev</version>
     <title>Flutter</title>
     <authors>Google</authors>
     <owners>ekeel</owners>
