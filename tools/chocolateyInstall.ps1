@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $ToolsPath             = Split-Path -Parent $MyInvocation.MyCommand.Definition
-$url                   = 'https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v1.16.2-dev.zip'
+$url                   = 'https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v1.16.3-dev.zip'
 $installDir            = $env:ChocolateyToolsLocation # Dangerous but appending -SpecificFolder to Install-ChocolateyZipPackage doesn't work
 
-Install-ChocolateyZipPackage $env:ChocolateyPackageName $url $installDir -checksum '149E82144B92469744ABB79E39925EFE0A4F4714A47A3D780D762B78C73FB519229D05F69B35AC788F6DF7F47A0FE641CF5AE0E7D8631355BB4DBD341E07C623' -checksumType 'sha512'
+Install-ChocolateyZipPackage $env:ChocolateyPackageName $url $installDir -checksum '696501BB814C0A4EAB1D818CEF10FD0ABAF91A8F346860728F9A82B4A77F853A2C4307EBF5FEAB4E3345AD6CEE465507C2DC7E8BBA0FA16E2935AA4347FF66BF' -checksumType 'sha512'
 Install-ChocolateyPath $installDir
