@@ -1,0 +1,1 @@
+## NOTICE: This repository is now deprecated and has been for a while now. It has been superseded by my Chocolatey Packaging Monorepository located [here](https://github.com/Starz0r/ChocolateyPackagingScripts)! 

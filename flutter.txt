@@ -1,0 +1,13 @@
+https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_1.17.0-dev.3.1-beta.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.17.0-dev.0.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.17.0-dev.1.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.17.0-dev.2.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.17.0-dev.3.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.17.0-dev.4.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.17.0-dev.5.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.18.0-dev.0.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.18.0-dev.1.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.18.0-dev.2.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.18.0-dev.3.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.18.0-dev.4.0-dev.zip
+https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.18.0-dev.5.0-dev.zip
